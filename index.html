@@ -97,17 +97,97 @@
 			
 			.section{
 				height:450px;
-				border:1px solid black;
 				margin-top:30px; 
 				display:grid;
-				grid-template-columns:auto auto auto;
+				grid-template-columns:38% 27% 29%;
 				column-gap:20px;
 				
 			}
 			.main{
-				height:80%;
-				border:1px solid black;
+				height:85%;
+				border-radius:20px;
 				margin:20px 0px 0px 30px;
+			}
+			.imd1{
+				border-radius:20px 0px 0px 20px;
+				background-color:skyblue;
+				text-align:center;
+				font-size:38px;
+			}
+			.text{
+				margin:120px 0px 0px 20px;
+			}
+			.content{
+				height:31px;
+				width:150px;
+				background-color:black;
+				color:white;
+				border-radius:20px;
+				margin:20px 0px 0px 180px;
+				font-size:18px;
+				font-family:arial, sans-sarif;
+				text-align:center;
+				padding-top:9px;
+			}
+			.imd2{
+				border-radius:0px 20px 20px 0px;
+				margin-left:-20px;
+			}
+			.imd3{
+				margin-left:0px;
+				background-image:url('https://i.etsystatic.com/ij/1e502b/8276167818/ij_600x600.8276167818_jax3oksp.jpg?version=0');
+				background-size:100% 100%;
+			}	
+			.most{
+				font-size:28px;
+				font-family:arial, sans-sarif;
+				color:white;
+				margin:73% 0px 0px 30px;
+			}
+			.section2{
+				height:500px;
+				border:1px solid black;
+				margin:10px 0px 20px 0px;
+				display:grid;
+				grid-template-columns:23% 23% 23% 23%;
+				column-gap:18px;
+			}
+			.sectioname{
+				width:100%;
+				background-color:yellow;
+				font-size:20px;
+				margin:10px 0px 10px 30px;
+				font-family:arial, sans-sarif;
+			}
+			.s2_imag{
+				height:420px;
+				width:100%;
+				border:0px solid black;
+				border-radius:10px;
+				background-color:white;
+				margin:40px 0px 30px 30px;
+			}
+			.s2_imag:hover{
+				background-color:lightgrey;
+				transform:scale(101%);
+			}
+			.s2_imagdi{
+				height:380px;
+				width:90%;
+				border:0px solid black;
+				border-radius:10px;
+				margin:10px 0px 0px 15px;
+			}
+			.img_edit{
+				height:100%;
+				width:100%;
+				border-radius:10px;
+			}
+			.caption{
+				font-size:16px;
+				font-family:arial, sans-sarif;
+				margin:11px 0px 0px 0px;
+				text-align:center;
 			}
 		</style>
 	</head>
@@ -154,9 +234,49 @@
 		
 			<section class="section">
 			
-				<div class="main"></div>
-				<div class="main"></div>
-				<div class="main"></div>
+				<div class="main imd1"> <p class="text">Our Top 100 Christmas <br>Gifts are here</p>
+					<div class="content">See the full list</div>
+				</div>
+				
+				<div class="main imd2">
+					<img src="https://i.etsystatic.com/ij/653d61/8678949966/ij_680x540.8678949966_jzylec8p.jpg?version=0" height="100%" width="100%" style="border-radius:0px 20px 20px 0px">
+				</div>
+				
+				<div class="main imd3">
+					<p class="most">Most Whimsical Finds <br>Shop now</p>
+				</div>
+			</section>
+			
+			<section class="section2">
+				<!-- <div class="sectioname">Jump into featured interests</div> -->
+				
+				<div class="s2_imag">
+					<figure class="s2_imagdi">
+						<img src="https://i.etsystatic.com/16411663/r/il/eb412b/3768521399/il_510x680.3768521399_8pic.jpg" class="img_edit">
+					</figure>
+					<figcaption class="caption">Piercing Ear Jewelry</figcaption>
+				</div>
+				
+				<div class="s2_imag">
+					<figure class="s2_imagdi">
+						<img src="https://i.etsystatic.com/51103332/r/il/cf5099/8073959948/il_510x680.8073959948_jhy3.jpg" class="img_edit">
+					</figure>
+					<figcaption class="caption">Bridesmaid Gift Bags</figcaption>
+				</div>
+				
+				<div class="s2_imag">
+					<figure class="s2_imagdi">
+						<img src="https://i.etsystatic.com/23449844/r/il/4cc6df/6213375419/il_510x680.6213375419_kwer.jpg" class="img_edit">
+					</figure>
+					<figcaption class="caption">Custom Photo Gifts</figcaption>
+				</div>
+				
+				<div class="s2_imag">
+					<figure class="s2_imagdi">
+						<img src="https://i.etsystatic.com/51883689/r/il/5b7f7b/6353764857/il_510x680.6353764857_8n3e.jpg" class="img_edit">
+					</figure>
+					<figcaption class="caption">Eco-Conscious Home</figcaption>
+				</div>
 			</section>
 		
 		</main>
