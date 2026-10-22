@@ -16,23 +16,21 @@
 				margin:0px;
 			}
 			header{
-				height:70px;
+				height:120px;
 				margin:0px;
 				display:grid;
+				border-bottom:1px solid lightgrey;
 				column-gap: 10px;
 				grid-template-columns: 10% 13% 52% 22%;
+				grid-template-rows:auto 45px;
 			}
-			
-			<!-- div{ -->
-				<!-- background-color:orange; -->
-				<!-- margin:2px; -->
-			<!-- } -->
 			.img{
 				height:100%;
 				width:100%;
 				margin:0px 0px 0px 0px;
 			}
 			.d1{
+				height:70px;
 				margin:7px 0px 0px 35px;
 			}
 			.menu{
@@ -48,9 +46,68 @@
 			.d3{
 				height:50px;
 				border-radius:25px;
-				border:1px solid black;
-				margin:20px 0px 0px 0px;
+				border:2px solid black;
+				margin:17px 0px 0px -10px;
 				background-color:white;
+			}
+			input{
+				height:45px;
+				width:90%;
+				border-radius:25px;
+				border:0px solid black;
+				outline:none;
+				font-size:18px;
+				padding-left:10px;
+			}
+			.search{
+				font-size:28px;
+				margin:20px 0px 0px 10px;
+			}
+			.d4{
+				display:flex;
+			}
+			.sign{
+				height:30px;
+				width:60px;
+				border:0px solid black;
+				margin:35px 0px 0px 15px;
+				text-align:center;
+				font-size:18px;
+				font-family:arial, sans-sarif;
+			}
+			.ind-logo{
+				height:30px;
+				width:30px;
+				border:0px solid black;
+				outline:2px solid black;
+				border-radius:100px;
+				margin:30px 0px 0px 35px;
+			
+			}
+			.row{
+				width:1000%;
+				text-align:center;
+			}
+			.s1{
+				font-family:arial, sans-sarif;
+				margin:10px 0px 0px 20px ;
+				display:inline-block;
+				text-decoration:bold;
+			}
+			
+			.section{
+				height:450px;
+				border:1px solid black;
+				margin-top:30px; 
+				display:grid;
+				grid-template-columns:auto auto auto;
+				column-gap:20px;
+				
+			}
+			.main{
+				height:80%;
+				border:1px solid black;
+				margin:20px 0px 0px 30px;
 			}
 		</style>
 	</head>
@@ -66,11 +123,42 @@
 			<div class="d2"><i class="ri-menu-fill menu"></i><span class="Categories">Categories</span></div>
 			
 			<div class="d3 ">
-			
+				<input type="text" placeholder="Search for anything">
+				<i class="ri-search-line search"></i>
 			</div>
 			
-			<div class="d4 ">4</div>
+			<div class="d4">
+			
+				<div class="sign">Sign in</div>
+				
+				<div class="ind-logo">
+					<img src="https://5.imimg.com/data5/SELLER/Default/2025/3/494387686/FK/LR/EE/56550666/indian-flag-badge-500x500.jpg"  height="100%" width="105%">
+				</div>
+				
+				<i class="ri-heart-fill menu" style="font-size:26px;"></i><i class="ri-shopping-cart-fill menu" style="font-size:26px;"></i>
+			</div>
+			
+			
+			<div class="row">
+				<span class="s1"><i class="ri-gift-fill"></i>Gift</span>
+				<span class="s1">Autumn Hosting & Decor</span>
+				<span class="s1">Home Favourites</span>
+				<span class="s1">Fashion Finds</span>
+				<span class="s1">Vintage</span>
+				<span class="s1">Wedding Guide</span>
+			</div>
 		</header>
 		
+		
+		<main>
+		
+			<section class="section">
+			
+				<div class="main"></div>
+				<div class="main"></div>
+				<div class="main"></div>
+			</section>
+		
+		</main>
 	</body>
 </html>
