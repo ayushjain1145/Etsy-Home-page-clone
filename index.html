@@ -50,7 +50,7 @@
 				margin:17px 0px 0px -10px;
 				background-color:white;
 			}
-			input{
+			.input{
 				height:45px;
 				width:90%;
 				border-radius:25px;
@@ -68,8 +68,9 @@
 			}
 			.sign{
 				height:30px;
-				width:60px;
+				width:80px;
 				border:0px solid black;
+				background-color:white;
 				margin:35px 0px 0px 15px;
 				text-align:center;
 				font-size:18px;
@@ -495,9 +496,89 @@
 			.con_small{
 				font-size:16px;
 				font-family:arial, sans-sarif;
-				margin:50px 0px 0px 30%;
+				margin:50px 0px 0px 25%;
 				display:inline-block;
 			}
+			.con_small:hover{
+				text-decoration:underline;
+			}
+			.mar{
+				margin-left:18px;
+			}
+			li{
+				color:black;
+			}
+			li:hover{
+				text-decoration:underline;
+			}
+			
+			.singd{
+				 height:480px;
+				 width:380px;
+				 border:solid lightgrey 1px;
+				 border-radius:25px;
+				 margin-top:6%;
+			}
+		   .e_logo{
+			  height:45px;
+			  width:45px;
+			  background-color:orange;
+			  color:white;
+			  text-align:center;
+			  font-size:38px;
+			  margin:30px 0px 0px 169px;
+		   }
+		   .hidha{
+			  text-align:center;
+			  font-size:34px;
+			  margin-top:10px;
+		   }
+		   .inphid{
+			  height:45px;
+			  width:80%;
+			  border-radius:10px;
+			  border:2px solid blue;
+			  font-size:18px;
+			  margin:5px 0px 0px 30px;
+		   }
+		   .radio{
+				height:30px 
+				width:30px;
+				margin:20px 0px 0px 40px;
+		   }
+		   label{
+			  font-size:18px;
+			  font-family:arial, sans-sarif;
+			  margin:6px 0px 0px 30px;
+		   }
+		   .buo{
+				height:49px;
+				width:90%;
+				border-radius:30px;
+				border:0px solid grey;
+				background-color:lightgrey;
+				margin:10px 0px 0px 20px;
+				font-family:arial, sans-sarif;
+				font-size:18px;
+				color:white;
+		   }
+		   .or{
+				font-family:arial, sans-sarif;
+				text-align:center;
+				margin-top:20px;
+				color:grey;
+		   }
+		   .logos{
+				height:36px;
+				width:69px;
+				border:1px solid black;
+				border-radius:25px;
+				margin:10px 0px 0px 60px;
+				text-align:center;
+				font-size:26px;
+				padding-top:6px;
+				display:inline-block;
+		   }
 		</style>
 	</head>
 	
@@ -512,13 +593,33 @@
 			<div class="d2"><i class="ri-menu-fill menu"></i><span class="Categories">Categories</span></div>
 			
 			<div class="d3 ">
-				<input type="text" placeholder="Search for anything">
+				<input type="text" placeholder="Search for anything" class="input">
 				<i class="ri-search-line search"></i>
 			</div>
 			
 			<div class="d4">
 			
-				<div class="sign">Sign in</div>
+				<button class="sign" popovertarget="signin" popovertargetaction="show">Sign in</button>
+
+					<div class="singd" id="signin" popover>
+						  <div class="e_logo">E</div>
+						  <p class="hidha">Special starts on Etsy<br>
+							 <span style="font-size:16px;font-family:arial, sans-sarif;margin-top:0px;">New to Etsy? <u>Create an account</u></span></p>
+						  
+						  <form>
+							 <label>Email address</label><br>
+							 <input type="email" name="email" required="" autocomplete="" class="inphid"><br>
+							 <input type="checkbox" class="radio" autocfill>
+							 <label Style="margin-left:5px;">Stay signed in</label>
+							 
+							 <button class="buo">Sign in </button>
+							 <p class="or">or</p>
+							 
+							 <div class="logos"><i class="ri-google-fill"></i></div>
+							 <div class="logos " Style="margin-left:20px;"><i class="ri-facebook-fill"></i></div>
+							 <div class="logos " Style="margin-left:20px;"><i class="ri-apple-fill"></i></div>
+						  </form>
+					</div>
 				
 				<div class="ind-logo">
 					<img src="https://5.imimg.com/data5/SELLER/Default/2025/3/494387686/FK/LR/EE/56550666/indian-flag-badge-500x500.jpg"  height="100%" width="105%">
@@ -865,6 +966,12 @@
 				<span class="Ins_logo"><i class="ri-youtube-fill"></i></span>
 				
 				<span class="Ins_logo con_small">© 2026 Etsy, Inc.</span>
+				<span class="Ins_logo con_small mar">Terms of Use</span>
+				<span class="Ins_logo con_small mar">Privacy</span>
+				<span class="Ins_logo con_small mar">Interest-based ads</span>
+				<span class="Ins_logo con_small mar">Local Shops</span>
+				<span class="Ins_logo con_small mar">Regions</span>
+				
 			</div>
 		
 		</footer>
