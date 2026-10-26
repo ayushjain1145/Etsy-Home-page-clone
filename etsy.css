@@ -1,0 +1,576 @@
+
+			body{
+				margin:0px;
+			}
+			header{
+				height:120px;
+				margin:0px;
+				display:grid;
+				border-bottom:1px solid lightgrey;
+				column-gap: 10px;
+				grid-template-columns: 10% 13% 52% 22%;
+				grid-template-rows:auto 45px;
+			}
+			.img{
+				height:100%;
+				width:100%;
+				margin:0px 0px 0px 0px;
+			}
+			.d1{
+				height:50px;
+				margin:15px 0px 0px 35px;
+			}
+			.menu{
+				font-size:18px;
+				margin:30px 0px 0px 20px;
+				display:inline-block;
+				color:#2A3D52;
+			}
+			.Categories{
+				font-size:16px;
+				font-family:arial, sans-sarif;
+				margin-left:10px;
+				color:#2A3D52;
+			}
+			.d3{
+				height:45px;
+				border-radius:39px;
+				border:2px solid black;
+				margin:17px 0px 0px -10px;
+				background-color:white;
+			}
+			.input{
+				height:40px;
+				width:90%;
+				border:0px solid black;
+				border-radius:35px;
+				outline:none;
+				font-size:16px;
+				padding-left:20px;
+				padding-top:3px;
+				color:#2A3D52;
+			}
+			.search{
+				font-size:28px;
+				margin:20px 0px 0px 10px;
+			}
+			.d4{
+				display:flex;
+			}
+			.sign{
+				height:30px;
+				width:80px;
+				border:0px solid black;
+				background-color:white;
+				margin:28px 0px 0px 15px;
+				text-align:center;
+				font-size:16px;
+				font-family:arial, sans-sarif;
+			}
+			.ind-logo{
+				height:30px;
+				width:30px;
+				outline:2px solid black;
+				border-radius:100px;
+				margin:30px 0px 0px 35px;
+			
+			}
+			.row{
+				width:1000%;
+				text-align:center;
+			}
+			.s1{
+				font-family:arial, sans-sarif;
+				margin:10px 0px 0px 20px ;
+				display:inline-block;
+				font-size:15px;
+				color:#2A3D52;
+			}
+			
+			.section{
+				height:450px;
+				margin-top:30px; 
+				display:grid;
+				grid-template-columns:38% 27% 29%;
+				column-gap:20px;
+				
+			}
+			.main{
+				height:85%;
+				border-radius:20px;
+				margin:20px 0px 0px 30px;
+			}
+			.imd1{
+				border-radius:20px 0px 0px 20px;
+				background-color:skyblue;
+				text-align:center;
+				font-size:38px;
+			}
+			.text{
+				margin:120px 0px 0px 20px;
+			}
+			.content{
+				height:31px;
+				width:150px;
+				background-color:black;
+				color:white;
+				border-radius:20px;
+				margin:20px 0px 0px 180px;
+				font-size:18px;
+				font-family:arial, sans-sarif;
+				text-align:center;
+				padding-top:9px;
+			}
+			.imd2{
+				border-radius:0px 20px 20px 0px;
+				margin-left:-20px;
+			}
+			.imd3{
+				margin-left:0px;
+				background-image:url('https://i.etsystatic.com/ij/1e502b/8276167818/ij_600x600.8276167818_jax3oksp.jpg?version=0');
+				background-size:100% 100%;
+			}	
+			.most{
+				font-size:28px;
+				font-family:arial, sans-sarif;
+				color:white;
+				margin:73% 0px 0px 30px;
+			}
+			.section2{
+				height:500px;
+				margin:10px 0px 20px 0px;
+				display:grid;
+				grid-template-columns:23% 23% 23% 23%;
+				column-gap:18px;
+			}
+			.sectioname{
+				font-size:28px;
+				margin:10px 0px 10px 30px;
+				font-family:arial, sans-sarif;
+			}
+			.s2_imag{
+				height:420px;
+				width:100%;
+				border-radius:10px;
+				background-color:white;
+				margin:40px 0px 30px 30px;
+			}
+			.s2_imag:hover{
+				background-color:lightgrey;
+				transform:scale(100%);
+			}
+			.s2_imagdi{
+				height:380px;
+				width:90%;
+				border-radius:10px;
+				margin:10px 0px 0px 15px;
+			}
+			.img_edit{
+				height:100%;
+				width:100%;
+				border-radius:10px;
+			}
+			.caption{
+				font-size:16px;
+				font-family:arial, sans-sarif;
+				margin:11px 0px 0px 0px;
+				text-align:center;
+			}
+			.section3{
+				height:350px;
+				margin:10px 0px 20px 0px;
+				display:grid;
+				grid-template-columns:19% 19% 19% 19% 19%;
+				column-gap:15px;
+			}
+			.s3_imag{
+				height:299px;
+
+				border-radius:10px;
+				margin:10px 0px 0px 20px;
+			}
+			.s3_figure{
+				height:240px;
+				width:90%;
+				border-radius:10px;
+				margin:20px 0px 0px 10px;
+			}
+			.s4_imag{
+				height:450px;
+				border:0px solid black;
+				margin-top:5px;
+				display:grid;
+				grid-template-rows:260px auto;
+			}
+			.s4r1_div{
+				width:100%;
+				margin:15px 0px 0px 0px;
+				display:grid;
+				grid-template-columns:24% 24% 24% 24%;
+				column-gap:10px;
+			}
+			
+			.s4r2_div{
+				width:100%;
+				margin:8px 0px 0px 0px;
+				display:grid;
+				grid-template-columns:16% 16% 16% 16% 16% 16%;
+				column-gap:6px;
+			}
+			.divr1{
+				height:239px;
+				margin:0px 0px 0px 25px;
+				background-color:white;
+				border-radius:10px;
+			}
+			.sr1_pa{
+				margin:110px 0px 0px 20px;
+				font-size:16px;
+				font-family:arial, sans-sarif;
+			}
+			.sr1_pa2{
+				margin:10px 0px 0px 20px;
+				font-size:20px;
+				font-family:arial, sans-sarif;
+				text-decoration:bold;
+			}
+			.sr1_pa3{
+				margin:20px 0px 0px 20px;
+				font-size:16px;
+				font-family:arial, sans-sarif;
+			}
+			.bim2{
+				background-image:url('https://i.etsystatic.com/20459845/r/il/60f2fd/6485791531/il_680x540.6485791531_23oz.jpg');
+				background-size:100% 100%;
+			}
+			.bim3{
+				background-image:url('https://i.etsystatic.com/31388531/r/il/b66a90/4329508554/il_680x540.4329508554_q99v.jpg');
+				background-size:100% 100%;
+			}
+			.bim4{
+				background-image:url('https://i.etsystatic.com/22525986/r/il/b04d82/7339432191/il_680x540.7339432191_i9gk.jpg');
+				background-size:100% 100%;
+			}
+			.bim2_cp{
+				font-size:18px;
+				font-family:arial, sans-sarif;
+				margin:71% 0px 0px 20px;
+				color:#F5F5F5;
+			}
+			.divr2{
+				height:160px;
+				margin:15px 0px 0px 15px;
+				background-color:white;
+				border-radius:10px;
+				background-image:url('https://i.etsystatic.com/13046485/r/il/48e231/2962546494/il_400xN.2962546494_p8l6.jpg');
+				background-size:100% 100%;
+				
+			}
+			.r2bim2{
+				background-image:url('https://i.etsystatic.com/6265319/c/1639/1639/150/209/il/945a1f/7837991965/il_400xN.7837991965_jqv2.jpg');
+				background-size:100% 100%;
+			}
+			.r2bim3{
+				background-image:url('https://i.etsystatic.com/8559004/c/1600/1271/0/287/il/f6f742/2391423188/il_400xN.2391423188_och0.jpg');
+				background-size:100% 100%;
+			}
+			.r2bim4{
+				background-image:url('https://i.etsystatic.com/9079266/r/il/4ca47a/1684677037/il_400xN.1684677037_n624.jpg');
+				background-size:100% 100%;
+			}
+			.r2bim5{
+				background-image:url('https://i.etsystatic.com/5792807/c/2000/2000/0/0/il/7d35cf/5244111359/il_400xN.5244111359_3fpd.jpg');
+				background-size:100% 100%;
+			}
+			.r2bim6{
+				background-image:url('https://i.etsystatic.com/6595416/c/800/635/0/225/il/07f57d/1572044864/il_400xN.1572044864_d7zv.jpg');
+				background-size:100% 100%;
+			}
+			.iconli{
+				height:31px;
+				width:38px;
+				border-radius:100px;
+				background-color:grey;
+				margin:20px 0px 0px 69%;
+				text-align:center;
+				font-size:22px;
+				padding-top:7px;
+				color:white;
+				display:none;
+			}
+			.divr2:hover .iconli{
+				display:block;
+			}
+			.hidden{
+				height:27px;
+				width:80px;
+				border-radius:10px;
+				background-color:black;
+				text-align:center;
+				font-size:18px;
+				color:white;
+				padding-top:8px;
+				margin:45px 0px 0px 20px;
+				display:none;
+				font-family:arial, sans-sarif;
+			}
+			.divr2:hover .hidden{
+				display:block;
+			}
+			.s5{
+				height:450px;
+				margin-top:30px; 
+				display:grid;
+				grid-template-columns:24% 24% 24% 24%;
+				column-gap:10px;
+				margin-top:10px; 
+			}
+			.s5_div{
+				height:300px;
+				border:0px solid black;
+				margin:30px 0px 0px 20px;
+				border-radius:10px;
+				
+			}
+			.bac_div{
+				height:300px;
+				border-radius:10px;
+				background-image:url('https://i.etsystatic.com/59690053/c/1019/1019/110/234/il/acb2a1/8449405881/il_300x300.8449405881_7vqt.jpg');
+				background-size:100% 100%;
+			}
+			.cap{
+				font-size:16px;
+				font-family:arial, sans-sarif;
+				margin:9px 0px 0px 5px;;
+			}
+			.bac_im2{
+				background-image:url('https://i.etsystatic.com/65953622/r/il/c96168/8433278690/il_300x300.8433278690_9a1q.jpg');
+				background-size:100% 100%;
+			}
+			.bac_im3{
+				background-image:url('https://i.etsystatic.com/64867501/r/il/d084da/8084247894/il_300x300.8084247894_1vva.jpg');
+				background-size:100% 100%;
+			}
+			.bac_im4{
+				background-image:url('https://i.etsystatic.com/59670871/r/il/de0f7c/8439876913/il_300x300.8439876913_b0e1.jpg');
+				background-size:100% 100%;
+			}
+			.hidico{
+				height:31px;
+				width:38px;
+				border-radius:100px;
+				background-color:white;
+				margin:0px 0px 0px 79%;
+				text-align:center;
+				font-size:22px;
+				padding-top:7px;
+				display:none;
+			}
+			.bac_div:hover .hidico{
+				display:block;
+				position:relative;
+				top:3%;
+			}
+			.s6bac_div{
+				height:300px;
+				border-radius:10px;
+				background-image:url('https://i.etsystatic.com/52310025/r/il/fedf12/7446451529/il_300x300.7446451529_sm3x.jpg');
+				background-size:100% 100%;
+			}
+			.s6_img2{
+				background-image:url('https://i.etsystatic.com/27231545/c/1785/1785/137/160/il/031139/4140718095/il_300x300.4140718095_mc7l.jpg');
+				background-size:100% 100%;
+			}
+			.s6_img3{
+				background-image:url('https://i.etsystatic.com/60265837/c/1960/1960/374/23/il/d3b429/7871853285/il_300x300.7871853285_jfb6.jpg');
+				background-size:100% 100%;
+			}.s6_img4{
+				background-image:url('https://i.etsystatic.com/23239473/r/il/e6c1df/8704956683/il_300x300.8704956683_lmzp.jpg');
+				background-size:100% 100%;
+			}
+			.s6bac_div:hover .hidico{
+				display:block;
+				position:relative;
+				top:3%;
+			}
+			
+			.section6{
+				height:200px;
+				margin:30px 0px 20px 0px;
+				display:grid;
+				grid-template-columns:24.8% 24.8% 24.8% 24.8%;
+			}
+			.s6_div{
+				height:160px;
+				margin:10px 0px 0px 30px;
+				border:1px solid lightgrey;
+				border-radius:10px;
+			}
+			.div_img{
+				height:150px;
+				width:50%;
+				border-radius:10px;
+				margin:5px 0px 0px 10px;
+				display:flex;
+			}
+			.im{
+				height:100%;
+				width:100%;
+				border-radius:10px;
+			}
+			.op{
+				font-family:arial, sans-sarif;
+				font-size:18px;
+				margin:55px 0px 0px 10px;
+			}
+			.footer{
+				height:730px;
+				background-color:#F5F5F5;
+				margin-top:50px;
+				display:grid;
+				grid-auto-rows:100px 380px 150px 100px;
+			}
+			.footer_div{
+				width:100%;
+				border:0px solid black;
+			}
+			.heading{
+				font-size:42px;
+				margin:16px 0px 0px 30px;
+				font-weight:500px;
+			}
+			.div_grid{
+				display:grid;
+				grid-template-columns:260px 260px 260px 260px;
+			}
+			.list{
+				height:350px;
+				margin:20px 0px 0px 0px;
+			}
+			.ul{
+				font-size:18px;
+				font-family:arial, sans-sarif;
+			}
+			.div_grid2{
+				display:grid;
+				grid-template-columns:220px 220px 290px;
+			}
+			.Google_im{
+				height:50px;
+				margin:30px 0px 0px 36px;
+				border-radius:5px;
+			}
+			.Paint{
+				height:200px;
+				border-radius:5px;
+				position:relative;
+				left:200%;
+				top:-26%;
+			}
+			.Pain_img{
+				height:100%;
+				width:100%;
+				border-radius:5px;
+			}
+			.last_div{
+				display:flex;
+			}
+			.Ins_logo{
+				font-size:24px;
+				margin:35px 0px 0px 35px;
+				color:grey;
+			}
+			.con_small{
+				font-size:14px;
+				font-family:arial, sans-sarif;
+				margin:50px 0px 0px 25%;
+				display:inline-block;
+				color:#2A3D52;
+
+			}
+			.con_small:hover{
+				text-decoration:underline;
+			}
+			.mar{
+				margin-left:18px;
+			}
+			li{
+				color:#2A3D52;
+				font-size:14px;
+			}
+			li:hover{
+				text-decoration:underline;
+			}
+			
+			.singd{
+				 height:480px;
+				 width:380px;
+				 border:solid lightgrey 1px;
+				 border-radius:25px;
+				 margin-top:6%;
+			}
+		   .e_logo{
+			  height:45px;
+			  width:45px;
+			  background-color:orange;
+			  color:white;
+			  text-align:center;
+			  font-size:38px;
+			  margin:30px 0px 0px 169px;
+		   }
+		   .hidha{
+			  text-align:center;
+			  font-size:34px;
+			  margin-top:10px;
+		   }
+		   .inphid{
+			  height:45px;
+			  width:80%;
+			  border-radius:10px;
+			  border:2px solid blue;
+			  font-size:18px;
+			  margin:5px 0px 0px 30px;
+		   }
+		   .radio{
+				height:30px 
+				width:30px;
+				margin:20px 0px 0px 40px;
+		   }
+		   label{
+			  font-size:18px;
+			  font-family:arial, sans-sarif;
+			  margin:6px 0px 0px 30px;
+		   }
+		   .buo{
+				height:49px;
+				width:90%;
+				border-radius:30px;
+				background-color:lightgrey;
+				margin:10px 0px 0px 20px;
+				font-family:arial, sans-sarif;
+				font-size:18px;
+				color:white;
+		   }
+		   .or{
+				font-family:arial, sans-sarif;
+				text-align:center;
+				margin-top:20px;
+				color:grey;
+		   }
+		   .logos{
+				height:36px;
+				width:69px;
+				border:1px solid black;
+				border-radius:25px;
+				margin:10px 0px 0px 60px;
+				text-align:center;
+				font-size:26px;
+				padding-top:6px;
+				display:inline-block;
+		   }
+		   .title{
+			   font-size:16px;
+				color:#2A3D52;
+			   
+			   
+		   }
