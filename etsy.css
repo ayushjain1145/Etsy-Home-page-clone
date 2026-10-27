@@ -51,8 +51,30 @@
 				color:#2A3D52;
 			}
 			.search{
-				font-size:28px;
-				margin:20px 0px 0px 10px;
+				height:35px;
+				width:35px;
+				font-size:26px;
+				margin:13px 0px 0px 10px;
+				position:absolute;
+				top:6px;
+				left:72%;
+				background-color:orange;
+				color:white;
+				border-radius:100px;
+				padding-top:8px;
+				padding-left:8px;
+				transition-property:background-color , border-top-left-radius, border-bottom-left-radius,height,width,margin-top;
+				transition-timing-function:linear;
+			}
+			.search:hover{
+				background-color:orange;
+				border-top-left-radius:0px;
+				border-bottom-left-radius:0px;
+				border-top-right-radius:20px;
+				border-bottom-right-radius:20px;
+				height:37px;
+				width:40px;
+				margin-top:13px;
 			}
 			.d4{
 				display:flex;
@@ -68,12 +90,19 @@
 				font-family:arial, sans-sarif;
 			}
 			.ind-logo{
-				height:30px;
-				width:30px;
+				height:25px;
+				width:25px;
 				outline:2px solid black;
 				border-radius:100px;
 				margin:30px 0px 0px 35px;
-			
+				background:white;
+				border:1px solid  white;
+			}
+			.imida{
+				height:30px;
+				width:30px;
+				margin:-10px;
+				
 			}
 			.row{
 				width:1000%;
@@ -603,6 +632,7 @@
 				width:90%;
 				border-radius:30px;
 				background-color:lightgrey;
+				border:1px solid lightgrey;
 				margin:10px 0px 0px 20px;
 				font-family:arial, sans-sarif;
 				font-size:18px;
@@ -629,18 +659,22 @@
 			   font-size:16px;
 				color:#2A3D52;
 		   }
-		   .hidcate{
+		   .hidcate{			   
 			   height:500px;
 			   width:850px;
-			   border:0px solid orange;
+			   border:2px solid grey;
 			   background-color:white;
 			   border-radius:10px;
 			   margin:90px 0px 0px 20px;
-			   display:grid;
-			   grid-template-columns:300px auto;
+			   display:flex;
+		   }
+		   .d2{
+			   background-color:white;
+			   border:0px solid black;
 		   }
 		   .Di_row{
 			   height:500px;
+			   width:350px;
 			   border:0px solid black;
 			   margin:0px 0px 0px 0px;
 			   overflow-y:scroll;
@@ -656,8 +690,9 @@
 			   background-color:lightgrey;
 		   }
 		   .colu{
-			   display:grid;
-			   grid-template-columns:auto auto auto;
+			   width:55%;
+			   display:flex;
+			   flex-wrap:wrap;
 		   }
 		   .imga{
 			   height:169px;
@@ -665,18 +700,17 @@
 			   margin:30px 0px 0px 30px;
 			   border-radius:10px;
 		   }
-		   /* .altaim{ */
-			   /* height:139px; */
-			   /* border:1px solid  black; */
-			   /* border-radius:10px; */
-				/* margin:5px 0px 0px 6px;; */
-		   /* } */
+		   .altaim{
+			   height:139px;
+			   border:0px solid  black;
+			   border-radius:10px;
+				margin:5px 0px 0px 6px;;
+		   }
 		   .img_bor{
 			   height:141px;
 			   border:0px solid  black;
 			   border-radius:10px;
-				margin:5px 0px 0px 6px;;
-
+				margin:0px 0px 0px 0px;;
 		   }
 		   .imca{
 			   text-align:center;
@@ -684,3 +718,48 @@
 			   font-size:16px;
 			   color:#2A3D52;
 		   }
+		   .ind_infor{
+			   height:500px;
+			   width:550px;
+			   border:1px solid grey;
+			   border-radius:20px;
+		   }
+		   .update{
+			   font-family:arial, sans-sarif;
+			   font-size:20px;
+			   margin:25px 0px 0px 30px;
+			   
+		   }
+		   .set_wh{
+			   font-family:arial, sans-sarif;
+			   font-size:16px;
+			   margin:20px 0px 0px 30px;
+				row-gap:10px;
+				color:#2A3D52;
+		   }
+		   .label_re{
+			   font-family:arial, sans-sarif;
+			   font-size:18px;
+			   margin:50px 0px 0px 30px;
+		   }
+		   .select{
+			   height:49px;
+			   width:450px;
+			   border-radius:10px;
+			   margin:10px 0px 0px 30px;
+			   font-size:18px;
+			   padding:10px;
+		   }
+		   .reset{
+			   height:32px;
+			   width:55px;
+			   background-color:white;
+			   border-radius:20px;
+			   margin:30px 0px 0px 55%;
+			   border:1px solid black;
+			   color:black;
+			   padding-top:3px;
+			   padding-left:10px;
+			   font-size:16px;
+		   }
+		   
